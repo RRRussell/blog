@@ -1,5 +1,5 @@
 # Created by Russell
-title: Essay
+title: Repo
 author: Russell
 permalink: '/:year/:month/:day/:title/'
 paginate: 6
