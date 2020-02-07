@@ -1,13 +1,10 @@
-# Created by Jekyll Writer
+# Created by Russell
 title: Essay
 author: Russell
-description: >
-  This theme is disigned based on Mailbox Blog, and licensed under MIT. This
-  theme is also default theme for new site created by Jekyll Writer.
 permalink: '/:year/:month/:day/:title/'
 paginate: 6
 paginate_path: '/page/:num/'
-twitter_username: Russell
+twitter_username: Russell33706906
 github_username: RRRussell
 gems:
   - jekyll-paginate
