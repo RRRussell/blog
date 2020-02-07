@@ -2,7 +2,7 @@
 title: Repo
 author: Russell
 permalink: '/:year/:month/:day/:title/'
-paginate: 6
+paginate: 8
 paginate_path: '/page/:num/'
 twitter_username: Russell33706906
 github_username: RRRussell
