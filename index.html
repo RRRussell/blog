@@ -25,7 +25,7 @@ layout: default
 
     {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
-        <a class="prev_page" href="/">Newer posts →</a>
+        <a class="prev_page" href="/blog">Newer posts →</a>
       {% else %}
         <a class="prev_page" href="{{ paginator.previous_page_path }}">Newer posts →</a>
       {% endif %}
@@ -34,4 +34,3 @@ layout: default
   </div>
   {% endif %}
 </div>
-# href="{{ paginator.next_page_path }}"
