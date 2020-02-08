@@ -20,7 +20,7 @@ layout: default
   {% if paginator.total_pages > 1 %}
   <div class="paginator">
     {% if paginator.next_page %}
-      <a class="next_page" href="{{ paginator.next_page_path }}">← Older posts</a>
+      <a class="next_page" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' |  replace: 'index.html', '' }}">← Older posts</a>
     {% endif %}
 
     {% if paginator.previous_page %}
@@ -34,3 +34,4 @@ layout: default
   </div>
   {% endif %}
 </div>
+# href="{{ paginator.next_page_path }}"
